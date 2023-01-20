@@ -16,6 +16,11 @@ ul a {
   text-decoration: none !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .radium {
+    font-size: 0.8rem;
+  }
+}
 .gallery {
   display: grid !important;
   grid-template-columns: repeat(8, 1fr);
